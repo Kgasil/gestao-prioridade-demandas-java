@@ -1,7 +1,7 @@
 # Gestão e Priorização de Demandas em Java (POO)
 
 Projeto demonstrativo em **Java** aplicando **Programação Orientada a Objetos (POO)**, encapsulamento, validação de dados e regras de negócio para pontuação de prioridade, classificação de urgência e triagem de aprovação por custo.
-
+> 🌐 *English version available below:* [Jump to English Version](#english-version)
 ---
 
 ## Estrutura e Regras de Negócio
@@ -17,3 +17,23 @@ Projeto demonstrativo em **Java** aplicando **Programação Orientada a Objetos 
 1. Compile:
    ```bash
    javac GestaoPrioridadeApp.java
+---
+
+<a id="english-version"></a>
+
+# Demand Management & Prioritization in Java (OOP)[cite: 8]
+
+Demonstrative project in **Java** applying **Object-Oriented Programming (OOP)**, encapsulation, input validation, and business rules for priority scoring, urgency classification, and cost-based approval screening[cite: 8].
+
+## Structure & Business Rules[cite: 8]
+
+* `Demanda`: Models request attributes (title, department, estimated cost, remaining SLA days, and critical operational impact) with validation in the constructor[cite: 8].
+* `CalculadoraPrioridadeService`: Calculates a score from 0 to 100 based on operational criticality, SLA proximity, and cost tier, classifying priority as **HIGH**, **MEDIUM**, or **LOW** and flagging cases that require additional review[cite: 8].
+* `GestaoPrioridadeApp`: Runs a demonstrative scenario listing the consolidated result for each demand[cite: 8].
+
+## How to Run Locally (Optional)[cite: 8]
+
+1. Compile[cite: 8]:
+
+```bash
+javac GestaoPrioridadeApp.java
