@@ -20,8 +20,8 @@ public class GestaoPrioridadeApp {
             if (titulo == null || titulo.isBlank()) {
                 throw new IllegalArgumentException("O título da demanda é obrigatório.");
             }
-            if (custoEstimado < 0) {
-                throw new IllegalArgumentException("O custo estimado não pode ser negativo.");
+            if (!Double.isFinite(custoEstimado) || custoEstimado < 0) {
+                throw new IllegalArgumentException("O custo estimado deve ser finito e não negativo.");
             }
             this.id = id;
             this.titulo = titulo.trim();
