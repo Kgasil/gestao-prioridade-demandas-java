@@ -12,28 +12,38 @@ Projeto demonstrativo em **Java** aplicando **Programação Orientada a Objetos 
 
 ---
 
-## Como Executar Localmente (Opcional)
+## Como executar
 
-1. Compile:
-   ```bash
-   javac GestaoPrioridadeApp.java
+Requer JDK 11 ou superior. Na pasta do projeto:
+
+```bash
+javac -encoding UTF-8 GestaoPrioridadeApp.java
+java GestaoPrioridadeApp
+```
+
+O programa executa três demandas fictícias e imprime pontuação, prioridade e avaliação de aprovação. As regras são ilustrativas, não um processo de aprovação em produção.
+
 ---
 
 <a id="english-version"></a>
 
-# Demand Management & Prioritization in Java (OOP)[cite: 8]
+# Demand Management & Prioritization in Java (OOP)
 
-Demonstrative project in **Java** applying **Object-Oriented Programming (OOP)**, encapsulation, input validation, and business rules for priority scoring, urgency classification, and cost-based approval screening[cite: 8].
+Demonstrative project in **Java** applying **Object-Oriented Programming (OOP)**, encapsulation, input validation, and business rules for priority scoring, urgency classification, and cost-based approval screening.
 
-## Structure & Business Rules[cite: 8]
+## Structure & Business Rules
 
-* `Demanda`: Models request attributes (title, department, estimated cost, remaining SLA days, and critical operational impact) with validation in the constructor[cite: 8].
-* `CalculadoraPrioridadeService`: Calculates a score from 0 to 100 based on operational criticality, SLA proximity, and cost tier, classifying priority as **HIGH**, **MEDIUM**, or **LOW** and flagging cases that require additional review[cite: 8].
-* `GestaoPrioridadeApp`: Runs a demonstrative scenario listing the consolidated result for each demand[cite: 8].
+* `Demanda`: Models request attributes (title, department, estimated cost, remaining SLA days, and critical operational impact) with validation in the constructor.
+* `CalculadoraPrioridadeService`: Calculates a score from 0 to 100 based on operational criticality, SLA proximity, and cost tier, classifying priority as **HIGH**, **MEDIUM**, or **LOW** and flagging cases that require additional review.
+* `GestaoPrioridadeApp`: Runs a demonstrative scenario listing the consolidated result for each demand.
 
-## How to Run Locally (Optional)[cite: 8]
+## Run locally
 
-1. Compile[cite: 8]:
+Requires JDK 11 or later.
 
 ```bash
-javac GestaoPrioridadeApp.java
+javac -encoding UTF-8 GestaoPrioridadeApp.java
+java GestaoPrioridadeApp
+```
+
+The example prints priority and approval assessments for three synthetic demands. Business rules are illustrative.
