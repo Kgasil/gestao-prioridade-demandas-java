@@ -1,5 +1,10 @@
 # Gestão e Priorização de Demandas em Java (POO)
 
+<!-- kg-personal-portfolio-v1 -->
+
+[KG Professional Portfolio 1.0 — Portfólio pessoal / Personal portfolio](https://kgasil.github.io/portfolio/) · [Estudo de caso / Case study](https://kgasil.github.io/portfolio/cases.html#priority) · [Demonstração ilustrativa / Illustrative demo](https://kgasil.github.io/portfolio/lab.html#priority)
+
+
 Projeto demonstrativo em **Java** aplicando **Programação Orientada a Objetos (POO)**, encapsulamento, validação de dados e regras de negócio para pontuação de prioridade, classificação de urgência e triagem de aprovação por custo.
 > 🌐 *English version available below:* [Jump to English Version](#english-version)
 ---
